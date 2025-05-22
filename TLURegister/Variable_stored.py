@@ -12,8 +12,8 @@ header = {}
 
 access_token_url = "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token"                
 user_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/semester/semester_info"                        #update the new url here if its changed
-subject_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/findByPeriod/71456/"
-register_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/add-register/71456/"
+subject_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/findByPeriod/***"              #enter your User-specific API Endpoints
+register_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/add-register/***"
 
 
 data = {
