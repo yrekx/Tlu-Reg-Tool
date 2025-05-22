@@ -10,8 +10,8 @@ access_token = ''
 simplified_data = {}
 header = {}
 
-access_token_url = "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token"
-user_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/semester/semester_info"
+access_token_url = "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token"                
+user_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/semester/semester_info"                        #update the new url here if its changed
 subject_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/findByPeriod/71456/"
 register_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/add-register/71456/"
 
@@ -19,8 +19,8 @@ register_url = "https://sinhvien1.tlu.edu.vn:8098/education/api/cs_reg_mongo/add
 data = {
         'client_id': 'education_client',
         'grant_type': 'password',
-        'username': '2251272697',
-        'password': '011204001149',
+        'username': '***',
+        'password': '***',
         'client_secret': 'password'
     }   
 
@@ -43,7 +43,7 @@ def access_token(access_token):
                 'Content-Type': 'application/json; charset=utf-8',
                 'Authorization': f'Bearer {access_token}',
                 'Content-Type': 'application/json',
-                'origin':'https: //sinhvien1.tlu.edu.vn',
+                'origin':'https: //sinhvien1.tlu.edu.vn',                                                #here
                 'Referer': 'https: //sinhvien1.tlu.edu.vn/' 
                 }
     return headers 
